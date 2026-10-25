@@ -7,7 +7,7 @@ import requests
 #BACKEND_URL = "http://backend:7860"
 
 import os
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:7860").rstrip("/")
+BACKEND_URL = os.getenv("BACKEND_URL", "http://backend:7860").rstrip("/")
 
 # Page title
 st.title("SuperKart System")

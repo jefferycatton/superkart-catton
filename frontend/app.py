@@ -12,7 +12,7 @@ BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:7860").rstrip("/")
 # Page title
 st.title("SuperKart System")
 st.write(
-    "Enter the product and store details below to predict the total sales."
+    "Enter the product and store details below to predict the total sales. - " + BACKEND_URL
 )
 
 # Input fields for product and store data
